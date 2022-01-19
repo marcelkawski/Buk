@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_matches"
+        android:icon="@drawable/ic_compare"
+        android:title="@string/matches" />
+
+    <item
+        android:id="@+id/navigation_bookmakers"
+        android:icon="@drawable/ic_ticket"
+        android:title="@string/bookmakers" />
+
+    <item
+        android:id="@+id/navigation_best"
+        android:icon="@drawable/ic_best"
+        android:title="@string/best" />
+</menu>

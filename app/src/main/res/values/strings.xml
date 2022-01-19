@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Buk</string>
+    <string name="matches">Wybierz mecz</string>
+    <string name="bookmakers">Ustaw typ</string>
+    <string name="best">Najlepszy typ</string>
+    <string name="no_match_info">Nie wybrano meczu do porównania kursów.</string>
+    <string name="create_coupon">Stwórz kupon</string>
+    <string name="chose_type">Wybierz typ</string>
+    <string name="home_win">WYGRANA GOSPODARZY</string>
+    <string name="away_win">WYGRANA GOŚCI</string>
+    <string name="draw">REMIS</string>
+    <string name="chose_matches">Dodaj mecze do swojego kuponu</string>
+</resources>

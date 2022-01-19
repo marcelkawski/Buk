@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvInfoChoosing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/chose_matches" />
+
+    <TextView
+        android:id="@+id/tvInfoDate"
+        android:layout_below="@+id/tvInfoChoosing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:id="@+id/tvDownloading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Pobieranie meczów..." />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="gone"
+        android:layout_below="@+id/tvInfoDate"
+        android:id="@+id/list_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="48dp" />
+
+    <Button
+        android:id="@+id/btnType"
+        android:layout_alignParentBottom="true"
+        android:text="Typuj"
+        android:background="@color/baseBlue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp" />
+
+</RelativeLayout>

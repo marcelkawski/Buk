@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#FFF6A117</color>
+    <color name="colorPrimaryDark">#ce8510</color>
+    <color name="colorAccent">#FFF6A117</color>
+    <color name="titleText">#FF2D2D2D</color>
+    <color name="hintText">#712d2d2d</color>
+    <color name="phoneEditBackground">#1A2D2D2D</color>
+    <color name="verifyButtonBackground">#FF2D2D2D</color>
+    <color name="scrollbarTrack">#4DD8D8D8</color>
+    <color name="scrollbarThumb">#80F6A117</color>
+    <color name="navigationInactive">#FFBEBEBE</color>
+    <color name="red">#FFFF0000</color>
+    <color name="ic_launcher_background">#F6A117</color>
+    <color name="progressBarBackground">#1A2D2D2D</color>
+    <color name="progressBarOk">#FF7ED321</color>
+    <color name="transparentWhite">#66ffffff</color>
+    <color name="parcelsDivider">#69f6a117</color>
+    <color name="arrowGray">#802D2D2D</color>
+    <color name="buttonUnclickBackground">#BFBFBF</color>
+    <color name="close_button_background">#ff4d4d</color>
+    <color name="confirm_button_background">#319135</color>
+</resources>
